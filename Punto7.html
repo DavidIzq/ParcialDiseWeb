@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <script>
+        alert("Digite 1.Area del circulo - 2.Area del rectangulo - 3.Area del triangulo")
+        opcion=parseInt(prompt());
+        switch(opcion){
+            case 1:
+              alert("Digite el radio");
+              var a =Math.PI*(r*r);
+              alert("El area del circulo es de " + a)
+                break;
+            case 2:
+                alert("Digite base-luego altura");
+                var b = parseInt(prompt());
+                var h = parseInt(prompt());
+                var a = b * h
+                alert("El area del rectangulo es de " + a)
+                 break;
+            case 3:
+                alert("Digite base-luego altura");
+                var b = parseInt(prompt());
+                var h = parseInt(prompt());
+                var a = (b * h)/2
+                alert("El area del rectangulo es de " + a)
+                break;
+        }
+        
+        
+        
+        
+        
+        </script>
+</body>
+</html>
